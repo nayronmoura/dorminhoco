@@ -1,0 +1,43 @@
+name: dorminhoco
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  permission_handler:
+  cupertino_icons: ^1.0.2
+  flutter_modular: ^5.0.3
+  flutter_triple: ^1.2.7+4
+  numberpicker: ^2.1.1
+  flutter_local_notifications: ^11.0.0
+  flutter_mobx: ^2.0.6+4
+  mobx: ^2.1.1
+  google_fonts: ^3.0.1
+  flutter_blue_plus: ^1.4.0
+  audio_session: ^0.1.13
+
+
+
+dev_dependencies:
+  build_runner:
+  mobx_codegen: ^2.1.1
+  device_preview: ^1.1.0
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  triple_test: ^1.0.0+1
+  modular_test: ^2.0.0
+
+flutter:
+
+
+  uses-material-design: true
